@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'GillSansCustom';
+    src: url('../fonts/GillSans-LightItalic.woff2') format('woff2'),
+         url('../fonts/GillSans-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Estilos generales */
+body,
+h1, h2, h3,
+p {
+    font-family: 'GillSansCustom', sans-serif;
+}
+
+body {
+    padding-top: 80px;
+    font-size: 1.2rem;
+    background-image: url('../img/fondo.jpg'); /* Ruta ajusta según tu estructura */
+    background-size: cover; /* Ajusta para que cubra toda la pantalla */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Títulos */
+h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+p, a {
+    line-height: 1.6;
+    font-weight: bold;
+}

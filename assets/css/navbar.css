@@ -1,0 +1,61 @@
+/* Navbar fija con sombra completa */
+.custom-navbar {
+    background-color: #59c36a;
+    box-shadow: 0 0 10px rgb(255, 255, 255); /* Sombra alrededor */
+    border: none; /* Quitamos la línea inferior */
+    transition: background-color 0.3s ease;
+    z-index: 11;
+}
+
+/* Contenedor general */
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Imagen más grande y alineada a la izquierda */
+.navbar-logo {
+    width: 60px;
+    height: auto;
+    transition: filter 0.4s ease;
+}
+
+/* Enlaces con texto más grande */
+.nav-links .nav-link {
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+    transition: color 0.4s ease;
+}
+
+/* Hover suave para todo el navbar */
+.custom-navbar:hover {
+    background-color: #f4f680;
+}
+
+.custom-navbar:hover .navbar-logo {
+    filter: brightness(0.8);
+}
+
+.custom-navbar:hover .nav-link {
+    color: #6a1b9a;
+}
+
+/* botones */
+.btn-img {
+    background-color: #59c36a;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.2s ease, transform 0.2s ease;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-img:hover {
+    background-color: #f4f680;
+    color: #6a1b9a;
+    transform: scale(1.03);
+}

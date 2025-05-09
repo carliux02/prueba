@@ -1,0 +1,28 @@
+.tarjetas {
+    padding: 50px 35px 50px 90px;
+}
+
+.custom-card {
+    background-color: rgb(255, 255, 255, 0.7);
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 38px;
+    margin: 22px;
+    transition: box-shadow 0.3s ease;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.custom-card:hover {
+    box-shadow: 0 8px 16px rgb(255, 255, 255);
+}
+
+.custom-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-body {
+    padding: 1rem;
+}
