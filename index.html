@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mármol & Estilo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de contactos</title>
+    <link rel="stylesheet" href="assets/framework/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/framework/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/general.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/cards.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
+    <script src="assets/framework/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/framework/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+  
+</head>
+
+<body>
+    <div id="container">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top custom-navbar">
+            <div class="container nav-content">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo_ucl.png" alt="Logo UCL" class="navbar-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-links">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+<!-- section 1 de las tarjetas -->
+    <section class="tarjetas">
+        <div class="row justify-content-center">
+            <div class="card custom-card col-lg-3">
+                <img src="assets/img/logo_ucl.png" alt="Logo UCL">
+                <div class="card-body">
+                    <h3 class="card-title">Card title</h3>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn-img open-modal"
+                        data-images="['assets/img/logo_ucl.png', 'assets/img/logo_ucl.png', 'assets/img/logo_ucl.png']">Ver
+                        imágenes</a>
+                </div>
+            </div>
+
+            <div class="card custom-card col-lg-3">
+                <img src="assets/img/logo_ucl.png" alt="Logo UCL">
+                <div class="card-body">
+                    <h3 class="card-title">Card title</h3>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn-img open-modal"
+                        data-images="['assets/img/logo_ucl.png', 'assets/img/logo_ucl.png', 'assets/img/logo_ucl.png']">Ver
+                        imágenes</a>
+                </div>
+            </div>
+
+            <div class="card custom-card col-lg-3">
+                <img src="assets/img/logo_ucl.png" alt="Logo UCL">
+                <div class="card-body">
+                    <h3 class="card-title">Card title</h3>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn-img open-modal"
+                        data-images="['assets/img/logo_ucl.png', 'assets/img/logo_ucl.png', 'assets/img/logo_ucl.png']">Ver
+                        imágenes</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal con carrusel Swiper -->
+        <div id="imageModal" class="modal-overlay">
+            <div class="modal-content">
+                <div class="swiper">
+                    <div class="swiper-wrapper" id="swiper-wrapper"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- section 2 de las tarjetas -->
+<section class="tarjetas">
+    <div class="row justify-content-center">
+        <div class="card custom-card col-lg-3 ">
+            <img src="assets/img/logo_ucl.png" alt="Logo UCL">
+            <div class="card-body">
+                <h3 class="card-title">Card title</h3>
+                <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
+                <a href="#" class="btn-img open-modal"
+                    data-images="['assets/img/logo_ucl.png', 'assets/img/logo_ucl.png', 'assets/img/logo_ucl.png']">Ver
+                    imágenes</a>
+            </div>
+        </div>
+
+        <div class="card custom-card col-lg-3 ">
+            <img src="assets/img/logo_ucl.png" alt="Logo UCL">
+            <div class="card-body">
+                <h3 class="card-title">Card title</h3>
+                <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
+                <a href="#" class="btn-img open-modal"
+                    data-images="['assets/img/logo_ucl.png', 'assets/img/logo_ucl.png', 'assets/img/logo_ucl.png']">Ver
+                    imágenes</a>
+            </div>
+        </div>
+
+        <div class="card custom-card col-lg-3 ">
+            <img src="assets/img/logo_ucl.png" alt="Logo UCL">
+            <div class="card-body">
+                <h3 class="card-title">Card title</h3>
+                <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
+                <a href="#" class="btn-img open-modal"
+                    data-images="['assets/img/logo_ucl.png', 'assets/img/logo_ucl.png', 'assets/img/logo_ucl.png']">Ver
+                    imágenes</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="imageModal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="swiper">
+                <div class="swiper-wrapper" id="swiper-wrapper"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+</body>
+
+</html>
